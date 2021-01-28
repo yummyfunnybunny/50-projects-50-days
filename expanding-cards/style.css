@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid blue;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.expanding-cards {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 80%;
+}
+.card {
+  border: 1px solid orange;
+  height: 100%;
+  width: 5%;
+  background: url("https://picsum.photos/800/400");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  border-radius: 25px;
+  /* padding: 5%; */
+  margin: 0 0.25rem;
+  cursor: pointer;
+  transition: all 1.5s linear;
+  display: flex;
+  align-items: end;
+}
+
+.card-active {
+  width: 70%;
+}
+
+.card-title {
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  opacity: 0;
+  transition: all 0.5s ease 0.4s;
+  text-shadow: 2px 0px black, -2px 0px black, 0px 2px black, 0px -2px black;
+}
+.card-active .card-title {
+  opacity: 1;
+}
