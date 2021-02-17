@@ -1,3 +1,11 @@
+// -------------------------------
+// NOTE REMOVE BEFORE EVERY GITHUB PUSH
+const API_URL =
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c8e9d4057f7ede4fa1b5994dd1f172c9&page=1";
+const SEARCH_API =
+  'https://api.themoviedb.org/3/search/movie?api_key=c8e9d4057f7ede4fa1b5994dd1f172c9&query="';
+// REMOVE BEFORE EVERY GITHUB PUSH
+// -------------------------------
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
 const form = document.getElementById("form");
