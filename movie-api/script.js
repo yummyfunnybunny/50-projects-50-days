@@ -1,3 +1,8 @@
+// -------------------------------
+// NOTE REMOVE BEFORE EVERY GITHUB PUSH
+
+// REMOVE BEFORE EVERY GITHUB PUSH
+// -------------------------------
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
 const form = document.getElementById("form");
